@@ -1,0 +1,10 @@
+experience:
+  - title: Software Engineer
+    company: Tech Solutions Inc.
+    start_date: January 2020
+    end_date: Present
+    location: New York, NY
+    responsibilities:
+      - Developed and maintained web applications using React and Node.js.
+      - Collaborated with cross-functional teams to define project requirements and deliverables.
+      - Implemented RESTful APIs to enhance application functionality.

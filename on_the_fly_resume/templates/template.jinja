@@ -118,18 +118,16 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
+    ((% for item in experience %))
     \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
+      {((* item.title *))}{ ((* item.start_date *)) -- ((* item.end_date *)) }
+      { ((* item.company *)) }{ ((* item.location *)) }
       \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+        ((% for responsibility in item.responsibilities %))
+          \resumeItem{ ((* responsibility *)) }
+        ((% endfor %))
       \resumeItemListEnd
-
-      ((% for item in resumeItems %))
-        ((* item *))
-      ((% endfor %))
+    ((% endfor %))
 
   \resumeSubHeadingListEnd
 
