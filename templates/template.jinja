@@ -118,7 +118,7 @@
 \section{Experience}
   \resumeSubHeadingListStart
 
-    ((% for item in experience %))
+    ((% for item in resume.experience %))
     \resumeSubheading
       {((* item.title *))}{ ((* item.start_date *)) -- ((* item.end_date *)) }
       { ((* item.company *)) }{ ((* item.location *)) }

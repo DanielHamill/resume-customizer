@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-src/main.py
-src/scripts.py
-src/on_the_fly_resume.egg-info/PKG-INFO
-src/on_the_fly_resume.egg-info/SOURCES.txt
-src/on_the_fly_resume.egg-info/dependency_links.txt
-src/on_the_fly_resume.egg-info/requires.txt
-src/on_the_fly_resume.egg-info/top_level.txt
